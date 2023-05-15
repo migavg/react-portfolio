@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import './components/HelloReact';
+import HelloReact from './components/HelloReact';
 
 function App() {
   return (
@@ -17,8 +19,11 @@ function App() {
         >
           Learn React
         </a>
+        <HelloReact/>
       </header>
+      
     </div>
+
   );
 }
 
