@@ -2,7 +2,7 @@ import React from 'react';
 import 'bulma/css/bulma.min.css';
 const AboutMe = () => {
   return (
-    <div class="content is-large container mt-6">
+    <div class="content is-large container mt-6 mb-6">
 <h1>About Me</h1>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius lectus, nec rutrum justo nibh eu lectus. Ut vulputate semper dui. Fusce erat odio, sollicitudin vel erat vel, interdum mattis neque.</p>
 <h2>Coding Languages "eXpeRiEnce"</h2>
