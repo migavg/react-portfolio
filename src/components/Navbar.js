@@ -4,7 +4,7 @@ const Navbar = () => {
     return (
         <header>
             <nav classname="navbar" role="navigation" aria-label="main navigation">
-                <div id="navbarBasicExample" class="navbar-menu has-background-grey-lighter">
+                <div id="navbarBasicExample" class="navbar-menu has-background-primary">
 
 
                     <div class="navbar-brand">
