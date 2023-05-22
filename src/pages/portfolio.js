@@ -64,8 +64,9 @@ const Portfolio = () => {
 
                 <div class="column is-half has-background-link ml-1 has-text-white"> <h3>Project 6</h3>
                     <a href="https://justanothertexteditorpwa.herokuapp.com/" class="">
+                        <img src={pwa} alt='app screenshot' />
                     </a>
-                    <img src={pwa} alt='app screenshot' />
+                    
                     
                 </div>
             </div>

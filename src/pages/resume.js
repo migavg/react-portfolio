@@ -7,7 +7,7 @@ const Resume = () => {
 <h1>Resume</h1>
 <img src={resumes} alt='resume simpsons meme' />
 <p>"No, I believe it's pronounced Resume."</p>
-<h4>CLICKE HERE!</h4>
+<h4 ><a href="https://pasteboard.co/Ikx55UkkE2Em.jpg" class="">CLICKE HERE!    </a></h4>
 <p>Download my super awesome "resume" that I have been working on longer than I've beeen alive! </p>
 
 
