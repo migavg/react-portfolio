@@ -12,6 +12,7 @@ const AboutMe = () => {
   <li>Morbi eu nulla lobortis, lobortis est in, fringilla felis.</li>
   <li>Aliquam nec felis in sapien venenatis viverra fermentum nec lectus.</li>
   <li>Ut non enim metus.</li>
+
 </ul>
 </div>
 

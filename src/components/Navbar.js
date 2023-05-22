@@ -1,25 +1,40 @@
 import React from 'react';
 import 'bulma/css/bulma.min.css';
-const Navbar = () => {
+const Navbar = ({ currentPage, handlePageChange }) => {
     return (
         <header>
-            <nav classname="navbar" role="navigation" aria-label="main navigation">
-                <div id="navbarBasicExample" class="navbar-menu has-background-primary">
+            <nav classname="" >
+                <div id="navbarBasicExample" className="navbar-menu has-background-primary">
 
 
-                    <div class="navbar-brand">
-                        <a class="navbar-item is-size-5 has-text-weight-semibold" href="https://bulma.io">
+                    <div className="navbar-brand">
+                        <a className="navbar-item is-size-5 has-text-weight-semibold" href="https://bulma.io">
                             <h1>Miguel Villagomez</h1>
                         </a>
                     </div>
 
-                    <div class="navbar-end">
-                        <div class="navbar-item is-size-5">
-                            <a href="https://www.npmjs.com/package/bulma?activeTab=readme" class="navbar-item">About Me</a>
-                            <a href="https://www.npmjs.com/package/bulma?activeTab=readme" class="navbar-item">Portfolio</a>
-                            <a href="https://www.npmjs.com/package/bulma?activeTab=readme" class="navbar-item">Contact Me</a>
-                            <a href="https://www.npmjs.com/package/bulma?activeTab=readme" class="navbar-item">Resume</a>
-                        </div>
+
+
+                    <div className="navbar-menu navbar-item is-size-5 navbar-end ">
+                        
+                            
+                        <a href="#aboutme"
+                        onClick={() => handlePageChange('Aboutme')}
+                        className= {currentPage === 'Aboutme' ? 'nav-link active' : 'nav-link'} class="">About Me</a>
+
+                        <a href="#portfolio"
+                        onClick={() => handlePageChange('Portfolio')}
+                        className= {currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'} class="" > Portfolio</a>
+
+                        <a href="#contactme"
+                        onClick={() => handlePageChange('ContactMe')}
+                        className= {currentPage === 'ContactMe' ? 'nav-link active' : 'nav-link'} class="" > Contact Me</a>
+
+                        <a href="#resume"
+                        onClick={() => handlePageChange('Resume')}
+                        className= {currentPage === 'Resume' ? 'nav-link active' : 'nav-link'} class="" >Resume</a>  
+                        
+                        
                     </div>
                 </div>
             </nav>
