@@ -2,7 +2,10 @@ import React from 'react';
 import 'bulma/css/bulma.min.css';
 import ragingbullScreenshot from '../images/ragingbullScreenshot.jpg';
 import BattleBinder from '../images/BattleBinder.PNG';
-
+import weather from '../images/weather.PNG'
+import workday from '../images/workday.PNG'
+import generator from '../images/generator.png'
+import pwa from '../images/pwa.PNG'
 const Portfolio = () => {
     return (
         <div class="container mt-6 mb-6">
@@ -10,15 +13,17 @@ const Portfolio = () => {
                 <div class="column is-half has-background-link mr-1 has-text-white">
                     <h3>Project 1</h3>
                     <a href="https://josiesavill.github.io/RagingBullCookbook/" class="">
-                    </a>
                     <img src={ragingbullScreenshot} alt='app screenshot' />
+                    </a>
+                    
                 </div>
 
                 <div class="column is-half has-background-link ml-1 has-text-white">
                 <h3>Project 2</h3>
-                    <a href="https://josiesavill.github.io/RagingBullCookbook/" class="">
-                    </a>
+                    <a href="https://arcane-falls-03228.herokuapp.com/" class="">
                     <img src={BattleBinder} alt='app screenshot' />
+                    </a>
+                    
                     
                 </div>
             </div>
@@ -27,16 +32,20 @@ const Portfolio = () => {
             <div class="columns mt-5">
                 <div class="column is-half has-background-link mr-1 has-text-white">
             
-                <h3>Project 2</h3>
-                    <a href="https://josiesavill.github.io/RagingBullCookbook/" class="">
+                <h3>Project 3</h3>
+                    <a href="https://migavg.github.io/weather-dashboard/" class="">
+                    
+                    <img src={weather} alt='app screenshot' />
                     </a>
-                    <img src={BattleBinder} alt='app screenshot' />
+                    
                     
                 </div>
-                <div class="column is-half has-background-link ml-1 has-text-white"> <h3>Project 2</h3>
-                    <a href="https://josiesavill.github.io/RagingBullCookbook/" class="">
+                
+                <div class="column is-half has-background-link ml-1 has-text-white"> <h3>Project 4</h3>
+                    <a href="https://migavg.github.io/work-day-scheduler/" class="">
+                    <img src={workday} alt='app screenshot' />
                     </a>
-                    <img src={BattleBinder} alt='app screenshot' />
+             
                     
                 </div>
             </div>
@@ -44,16 +53,19 @@ const Portfolio = () => {
             <div class="columns mt-5">
                 <div class="column is-half has-background-link mr-1 has-text-white">
             
-                <h3>Project 2</h3>
-                    <a href="https://josiesavill.github.io/RagingBullCookbook/" class="">
+                <h3>Project 5</h3>
+                    <a href="https://migavg.github.io/password-generator/" class="">
+                    <img src={generator} alt='app screenshot' />
                     </a>
-                    <img src={BattleBinder} alt='app screenshot' />
+                   
                     
                 </div>
-                <div class="column is-half has-background-link ml-1 has-text-white"> <h3>Project 2</h3>
-                    <a href="https://josiesavill.github.io/RagingBullCookbook/" class="">
+
+
+                <div class="column is-half has-background-link ml-1 has-text-white"> <h3>Project 6</h3>
+                    <a href="https://justanothertexteditorpwa.herokuapp.com/" class="">
                     </a>
-                    <img src={BattleBinder} alt='app screenshot' />
+                    <img src={pwa} alt='app screenshot' />
                     
                 </div>
             </div>
