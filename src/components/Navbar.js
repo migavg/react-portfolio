@@ -10,7 +10,7 @@ const Navbar = ({ currentPage, handlePageChange }) => {
                     <div className="navbar-item is-size-5">
                         <a href="#aboutme"
                         onClick={() => handlePageChange('Aboutme')}
-                         class="px-2 has-text-white">Miguel Villagomez
+                         class="px-2 has-text-white">Miguel Villagomez Portfolio Test
                         </a>
                     </div>
 

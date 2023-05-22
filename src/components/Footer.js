@@ -5,7 +5,7 @@ const Footer = () => {
         <footer class="footer has-background-grey-lighter">
             <div class="content has-text-centered">
                 <p>
-                    <strong>Portfolio</strong> by <a href="https://jgthms.com">Miguel Villagomez</a>. The source code is licensed
+                    <strong>Portfolio</strong> by <a href="https://github.com/migavg">Miguel Villagomez</a>. The source code is licensed
                     <a href="http://opensource.org/licenses/mit-license.php"> MIT</a>. The website content
                     is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
                 </p>

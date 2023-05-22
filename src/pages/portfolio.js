@@ -7,14 +7,14 @@ const Portfolio = () => {
     return (
         <div class="container mt-6 mb-6">
             <div class="columns mb-5">
-                <div class="column is-half has-background-primary mr-1">
+                <div class="column is-half has-background-link mr-1 has-text-white">
                     <h3>Project 1</h3>
                     <a href="https://josiesavill.github.io/RagingBullCookbook/" class="">
                     </a>
                     <img src={ragingbullScreenshot} alt='app screenshot' />
                 </div>
 
-                <div class="column is-half has-background-primary ml-1">
+                <div class="column is-half has-background-link ml-1 has-text-white">
                 <h3>Project 2</h3>
                     <a href="https://josiesavill.github.io/RagingBullCookbook/" class="">
                     </a>
@@ -25,8 +25,37 @@ const Portfolio = () => {
 
 
             <div class="columns mt-5">
-                <div class="column is-half has-background-primary mr-1">Item 3</div>
-                <div class="column is-half has-background-primary ml-1">Item 4</div>
+                <div class="column is-half has-background-link mr-1 has-text-white">
+            
+                <h3>Project 2</h3>
+                    <a href="https://josiesavill.github.io/RagingBullCookbook/" class="">
+                    </a>
+                    <img src={BattleBinder} alt='app screenshot' />
+                    
+                </div>
+                <div class="column is-half has-background-link ml-1 has-text-white"> <h3>Project 2</h3>
+                    <a href="https://josiesavill.github.io/RagingBullCookbook/" class="">
+                    </a>
+                    <img src={BattleBinder} alt='app screenshot' />
+                    
+                </div>
+            </div>
+
+            <div class="columns mt-5">
+                <div class="column is-half has-background-link mr-1 has-text-white">
+            
+                <h3>Project 2</h3>
+                    <a href="https://josiesavill.github.io/RagingBullCookbook/" class="">
+                    </a>
+                    <img src={BattleBinder} alt='app screenshot' />
+                    
+                </div>
+                <div class="column is-half has-background-link ml-1 has-text-white"> <h3>Project 2</h3>
+                    <a href="https://josiesavill.github.io/RagingBullCookbook/" class="">
+                    </a>
+                    <img src={BattleBinder} alt='app screenshot' />
+                    
+                </div>
             </div>
         </div>
     )

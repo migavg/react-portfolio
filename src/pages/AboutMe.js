@@ -6,15 +6,19 @@ const AboutMe = () => {
   return (
     <div class="content is-large container mt-6 mb-6">
       <h1>About Me</h1>
-      <img src={squid} alt='app screenshot' />
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla accumsan, metus ultrices eleifend gravida, nulla nunc varius lectus, nec rutrum justo nibh eu lectus. Ut vulputate semper dui. Fusce erat odio, sollicitudin vel erat vel, interdum mattis neque.</p>
+      <img src={squid} alt='squid avatar' />
+      <p>Hello my name is Miguel Villagomez. I am currently enrolled in a an edX fullstack coding bootcamp. Currently I am trying to learn to become
+        a bit more proficient in coding. But there is still a looooong way to go. Anyways I like pineapple on pizza and have a small white dog that is an
+         Italian greyhound chihuaha mix. I suppose that's it for now until I come up with more stuff to make myself more hirable. 
+      </p>
       <h2>Coding Languages "eXpeRiEnce"</h2>
-      <p>Curabitur accumsan turpis pharetra <strong>augue tincidunt</strong> blandit. Quisque condimentum maximus mi, sit amet commodo arcu rutrum id. Proin pretium urna vel cursus venenatis. Suspendisse potenti. Etiam mattis sem rhoncus lacus dapibus facilisis. Donec at dignissim dui. Ut et neque nisl.</p>
+      <p>Still learning all these things so don't expect much.</p>
       <ul>
-        <li>In fermentum leo eu lectus mollis, quis dictum mi aliquet.</li>
-        <li>Morbi eu nulla lobortis, lobortis est in, fringilla felis.</li>
-        <li>Aliquam nec felis in sapien venenatis viverra fermentum nec lectus.</li>
-        <li>Ut non enim metus.</li>
+        <li>HTML and CSS</li>
+        <li>JavaScript</li>
+        <li>REACT</li>
+        <li>Node</li>
+        <li>Bulma Framework</li>
 
       </ul>
     </div>
