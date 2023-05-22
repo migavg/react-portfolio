@@ -6,7 +6,7 @@ import ContactMe from '../pages/ContactMe';
 import Resume from '../pages/Resume';
 
 export default function Container() {
-  const [currentPage, setCurrentPage] = useState('Portfolio');
+  const [currentPage, setCurrentPage] = useState('AboutMe');
 
   // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
   const renderPage = () => {

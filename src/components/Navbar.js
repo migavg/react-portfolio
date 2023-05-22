@@ -4,12 +4,13 @@ const Navbar = ({ currentPage, handlePageChange }) => {
     return (
         <header>
             <nav classname="" >
-                <div id="navbarBasicExample" className="navbar-menu has-background-primary">
+                <div id="navbarBasicExample" className="navbar-menu has-background-link">
 
 
-                    <div className="navbar-brand">
-                        <a className="navbar-item is-size-5 has-text-weight-semibold" href="https://bulma.io">
-                            <h1>Miguel Villagomez</h1>
+                    <div className="navbar-item is-size-5">
+                        <a href="#aboutme"
+                        onClick={() => handlePageChange('Aboutme')}
+                         class="px-2 has-text-white">Miguel Villagomez
                         </a>
                     </div>
 
@@ -20,19 +21,19 @@ const Navbar = ({ currentPage, handlePageChange }) => {
                             
                         <a href="#aboutme"
                         onClick={() => handlePageChange('Aboutme')}
-                        className= {currentPage === 'Aboutme' ? 'nav-link active' : 'nav-link'} class="">About Me</a>
+                         class="px-2 has-text-white">About Me</a>
 
                         <a href="#portfolio"
                         onClick={() => handlePageChange('Portfolio')}
-                        className= {currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'} class="" > Portfolio</a>
+                       class="px-2 has-text-white" >Portfolio</a>
 
                         <a href="#contactme"
                         onClick={() => handlePageChange('ContactMe')}
-                        className= {currentPage === 'ContactMe' ? 'nav-link active' : 'nav-link'} class="" > Contact Me</a>
+                        class="px-2 has-text-white" >Contact Me</a>
 
                         <a href="#resume"
                         onClick={() => handlePageChange('Resume')}
-                        className= {currentPage === 'Resume' ? 'nav-link active' : 'nav-link'} class="" >Resume</a>  
+                       class="px-2 has-text-white" >Resume</a>  
                         
                         
                     </div>
