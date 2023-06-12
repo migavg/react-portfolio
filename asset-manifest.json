@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.74a71c0c.css",
-    "main.js": "/react-portfolio/static/js/main.356f3f7c.js",
+    "main.js": "/react-portfolio/static/js/main.c5639936.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/ObsidianBazaar.PNG": "/react-portfolio/static/media/ObsidianBazaar.580019077cb15f69c1b4.PNG",
     "static/media/BattleBinder.PNG": "/react-portfolio/static/media/BattleBinder.632c1fdac76b90409b5f.PNG",
     "static/media/resumes.gif": "/react-portfolio/static/media/resumes.337af6dad43ac57345d5.gif",
     "static/media/squid.png": "/react-portfolio/static/media/squid.e44b50dd7e9b1cd7be1f.png",
@@ -13,11 +14,11 @@
     "static/media/pwa.PNG": "/react-portfolio/static/media/pwa.81ffa5ea1dc7ae7a585d.PNG",
     "index.html": "/react-portfolio/index.html",
     "main.74a71c0c.css.map": "/react-portfolio/static/css/main.74a71c0c.css.map",
-    "main.356f3f7c.js.map": "/react-portfolio/static/js/main.356f3f7c.js.map",
+    "main.c5639936.js.map": "/react-portfolio/static/js/main.c5639936.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.74a71c0c.css",
-    "static/js/main.356f3f7c.js"
+    "static/js/main.c5639936.js"
   ]
 }
