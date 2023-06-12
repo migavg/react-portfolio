@@ -3,7 +3,7 @@ import 'bulma/css/bulma.min.css';
 import ContactForm from '../components/ContactForm';
 const ContactMe = () => {
     return (
-        <div>
+        <div className='column'>
            <ContactForm />
         </div>
     )

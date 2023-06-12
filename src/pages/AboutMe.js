@@ -4,6 +4,7 @@ import squid from '../images/squid.png'
 
 const AboutMe = () => {
   return (
+    <div className='column'>
     <div class="content is-large container mt-6 mb-6">
       <h1>About Me</h1>
       <img src={squid} alt='squid avatar' />
@@ -22,7 +23,7 @@ const AboutMe = () => {
 
       </ul>
     </div>
-
+    </div>
   )
 }
 

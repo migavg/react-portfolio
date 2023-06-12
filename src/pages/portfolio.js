@@ -6,6 +6,8 @@ import weather from '../images/weather.PNG'
 import workday from '../images/workday.PNG'
 import generator from '../images/generator.png'
 import pwa from '../images/pwa.PNG'
+import ObsidianBazaar from '../images/ObsidianBazaar.PNG'
+
 const Portfolio = () => {
     return (
         <div class="container mt-6 mb-6">
@@ -33,9 +35,9 @@ const Portfolio = () => {
                 <div class="column is-half has-background-link mr-1 has-text-white">
             
                 <h3>Project 3</h3>
-                    <a href="https://migavg.github.io/weather-dashboard/" class="">
+                    <a href="https://blooming-oasis-56175.herokuapp.com/" class="">
                     
-                    <img src={weather} alt='app screenshot' />
+                    <img src={ObsidianBazaar} alt='app screenshot' />
                     </a>
                     
                     

@@ -9,33 +9,40 @@ const Navbar = ({ currentPage, handlePageChange }) => {
 
                     <div className="navbar-item is-size-5">
                         <a href="#aboutme"
-                        onClick={() => handlePageChange('Aboutme')}
-                         class="px-2 has-text-white">Miguel Villagomez Portfolio Test
+                            onClick={() => handlePageChange('Aboutme')}
+                            class="px-2 has-text-white">Miguel Villagomez Portfolio Test
                         </a>
                     </div>
 
 
 
+
+                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+
                     <div className="navbar-menu navbar-item is-size-5 navbar-end ">
-                        
-                            
+
+
                         <a href="#aboutme"
-                        onClick={() => handlePageChange('Aboutme')}
-                         class="px-2 has-text-white">About Me</a>
+                            onClick={() => handlePageChange('Aboutme')}
+                            class="px-2 has-text-white">About Me</a>
 
                         <a href="#portfolio"
-                        onClick={() => handlePageChange('Portfolio')}
-                       class="px-2 has-text-white" >Portfolio</a>
+                            onClick={() => handlePageChange('Portfolio')}
+                            class="px-2 has-text-white" >Portfolio</a>
 
                         <a href="#contactme"
-                        onClick={() => handlePageChange('ContactMe')}
-                        class="px-2 has-text-white" >Contact Me</a>
+                            onClick={() => handlePageChange('ContactMe')}
+                            class="px-2 has-text-white" >Contact Me</a>
 
                         <a href="#resume"
-                        onClick={() => handlePageChange('Resume')}
-                       class="px-2 has-text-white" >Resume</a>  
-                        
-                        
+                            onClick={() => handlePageChange('Resume')}
+                            class="px-2 has-text-white" >Resume</a>
+
+
                     </div>
                 </div>
             </nav>
